@@ -1,0 +1,93 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    background-image: linear-gradient(to top, #ebebeb, #000000 80%);
+    background-attachment: fixed;
+    font-family: "Work Sans", sans-serif;
+    margin: 0px;
+}
+
+div {
+    width: 650px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #39125E;
+    border-radius: 10px;
+    padding: 20px;
+}
+header {
+    background-color: #f3f3f3;
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+header > nav {
+    padding-left: 14px;
+    padding-top: 10px;
+}
+
+header > nav > a {
+    text-decoration: none;
+    background-color: darkgray;
+    padding: 2px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #39125E;
+}
+
+header > nav > a:hover {
+    text-decoration: underline;
+    background-color: #777777;
+}
+
+header > nav > a:active {
+    background-color: black;
+    color: white;
+}
+
+main {
+    background-color: #f3f3f3;
+    padding: 0px 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+h2{
+    margin: 0px;
+}
+
+main > section > article > p {
+    text-align: justify;
+    text-indent: 10px;
+    padding: 0px 20px;
+
+}
+
+main > section > article > aside > a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    text-align: right;
+    font-style: italic;
+    padding-bottom: 8px;
+    padding-right: 20px;
+}
+
+main > section > article > aside > a:hover {
+    text-decoration: underline;
+    color: #39125E;
+}
+footer {
+    background-color: #000000;
+    padding: 1px;
+    border-radius: 10px;
+}
+footer > p {
+    text-align: center;
+    color: #ffffff;
+}

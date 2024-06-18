@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Teste de ajuste de imagem</h1>
+    <picture>
+        <source media="(max-width: 500px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 800px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="#">
+    </picture>
+
+    <h1>Teste de paisagem</h1>
+    <picture>
+        <source media="(max-width: 930px)" srcset="imagens/imagem.pp.jpg" type="image/jpg">
+        <source media="(max-width: 1100px)" srcset="imagens/imagem.p.jpg" type="image/jpg">
+        <source media="(max-width: 1400px)" srcset="imagens/imagem.m.jpg" type="image/jpg">
+        <source media="(max-width: 1800px)" srcset="imagens/imagem.g.jpg" type="image/jpg">
+        <img src="imagens/imagem.gg.jpg" alt="paisagem">
+    </picture>
+    <h1>Audio</h1>
+    <audio src="Acoustic Symphony - Hanu Dixit.mp3"  controls></audio>
+
+    <audio preload="metadata" controls>
+        <source src="Acoustic Symphony - Hanu Dixit.mp3" type="audio/mpeg">
+        <p>Infelizmente o seu navegador não abriu o audio</p>
+    </audio>
+
+    <h1>Vídeo em hospedagem própria</h1>
+    <video src="video.webm.webm" poster="pexels-stywo-1054218.jpg" width="560" height="315"  controls></video>
+    
+    <h1>Vídeo em hospedagem no youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/V_7hLfPFpOU?si=IRtUsZeH6-xhq5Pj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

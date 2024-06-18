@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="C:\Edu\Programação\html-css\desafios\ds.003\mapa.png" type="image/x-icon">
+    <title>Hierarquia / Semântica</title>
+    <style>
+        body{
+            font-family: Verdana;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1><b>Hierarquia/Semântica</b></h1>
+    <hr>
+    <h2>Negrito / Destaque</h2>
+    <h3>Negrito (não semântico)</h3>
+    <p style="text-ali;"><b>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</b> Fugiat tenetur odio animi esse ea, voluptatem aliquid provident, in, mollitia impedit molestias! Error at illum, repellat ab excepturi fuga maxime veniam.</p>
+    <h3>Destaque (semântico)</h3>
+    <p><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit.</strong> Consequuntur illo ratione temporibus distinctio ex sunt ipsa autem odit aperiam numquam perferendis soluta repellat, voluptate enim, eius nemo magnam. Molestiae, natus!</p>
+
+    <h2>Itálico / Êfase</h2>
+    <h3>Itálico (não semântico)</h3>
+    <p><i>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</i> Repellendus odio reiciendis voluptate tenetur id numquam, provident, eaque illo exercitationem facilis quis nulla maiores quaerat sequi eos impedit animi at in!</p>
+    <h3>Êfase (semântico)</h3>
+    <p><em>Lorem ipsum dolor sit amet consectetur adipisicing elit.</em> Commodi deserunt tempore laboriosam! Cupiditate doloremque esse autem reprehenderit commodi, deleniti odit dolor rem quibusdam aliquam placeat ratione, neque optio officia tempore.</p>
+
+    <h2>Marcador</h2>
+    <p><mark style="background-color: blue;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</mark> Inventore, neque eaque voluptatibus perspiciatis sunt, facere incidunt tenetur illo corporis nihil dolore doloremque recusandae? Veniam dolorem illo nobis, fuga in necessitatibus!</p>
+
+    <h2>Suplinhado / Incerido / Deletado</h2>
+    <h3>Sublinhado (não semântico)</h3>
+    <p><u>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</u> Quas ullam consectetur ratione suscipit fugiat necessitatibus voluptates soluta quaerat id veritatis debitis illum porro praesentium, ipsum animi ut. Illum, suscipit eos.</p>
+    <h3>Incerido (semântico)</h3>
+    <p><ins>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</ins> Enim facilis aperiam, alias suscipit id illo? Perferendis, incidunt in atque veniam dignissimos quia sit cumque aut tempora reprehenderit, aperiam magni corporis.</p>
+    <h3>Deletado (semântico)</h3>
+    <p><del>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</del> Dolor dolorum veritatis placeat inventore assumenda beatae, illo, exercitationem consequatur aut nemo asperiores repellendus nam accusantium alias hic accusamus tenetur nihil sit.</p>
+
+    <h2>Code e Pre</h2>
+    <pre><p>
+para(contador =1; contador <= aluno; contador++){
+escreva(nome[contador], "  ", nota[contador], "\n")
+nota_total += nota[contador]
+se(contador == 1){
+    nota_maior = nota[contador]
+}
+se(contador >= 1){
+            se(nota[contador] > nota_maior){
+                nota_maior = nota[contador]
+                aluno_maior = nome[contador]
+            }
+        }
+}</p>        
+    </pre>
+    <h3>Subescrito e &lt;Abbr&gt;</h3>
+    <p><abbr title="&gt;/Formula molecular da água&lt;">h<sub>2</sub>O</abbr></p>
+
+    <h3>Sobrescrito</h3>
+    <p>x<sup>2</sup>+5x-9</p>
+
+    <h3>Inverção de texto</h3>
+    <p><bdo dir="rtl"><q>Eduardo</q></bdo></p>
+
+    
+</body>
+</html>
