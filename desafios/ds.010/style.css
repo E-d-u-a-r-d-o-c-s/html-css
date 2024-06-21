@@ -99,6 +99,12 @@ main {
         list-style-type: '\2713\00a0';
         list-style-position: outside;
         columns: 2;
+
+        li {
+            abbr {
+                text-decoration: none;
+            }
+        }
     }
 
     div.video{
