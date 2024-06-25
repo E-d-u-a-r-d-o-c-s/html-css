@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+body {
+    min-width: 320px;
+    margin: 0px;
+}
+
+header {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+header>h1 {
+    font-family: "Passion One", sans-serif;
+    font-size: 130px;
+    margin: 0px;
+    padding: 10px;
+}
+
+header>p>a {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main>div>p {
+    font-family: "Sriracha", cursive;
+    font-size: 47px;
+    width: 520px;
+    padding-left: 20px;
+}
+
+.img1 {
+    background: rgb(50, 50, 50) url('imagens/flor.jpg') right bottom no-repeat fixed;
+    background-size: cover;
+
+}
+
+.img2 {
+    background: rgb(50, 50, 50) url('imagens/Página.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+.fundo {
+    background-color: rgba(0, 0, 0, 0.349);
+    color: white;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* color: white; */
+
+    a {
+        color: white;
+        font-weight: bold;
+
+        abbr {
+            text-decoration: none;
+        }
+    }
+
+}
