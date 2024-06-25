@@ -27,7 +27,7 @@ header>h1 {
 header>p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
-    padding-bottom: 2em;
+    padding-bottom: 50px;
 }
 
 a {
@@ -54,22 +54,26 @@ div>p {
     padding-bottom: 2em;
 }
 
-.img1 {
+div.fundo {
+    color: white;
+    box-shadow: inset 6px 6px 50px 0px rgba(0, 0, 0, 0.603);
+}
+
+div.fundo>p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.300);
+    text-shadow: 1px 1px 0px black;
+}
+
+#img1 {
     background: rgb(50, 50, 50) url('imagens/flor.jpg') right bottom no-repeat fixed;
     background-size: cover;
 }
 
-.img2 {
+#img2 {
     background: rgb(50, 50, 50) url('imagens/Página.jpg') center center no-repeat fixed;
     background-size: cover;
-}
-
-.fundo {
-    display: inline-block;
-    color: white;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.300);
-    text-shadow: 1px 1px 0px black;
 }
 
 footer {
