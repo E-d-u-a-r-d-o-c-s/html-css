@@ -2,9 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
-body {
-    min-width: 320px;
+* {
     margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-height: 100vh;
 }
 
 header {
@@ -15,18 +19,21 @@ header {
 
 header>h1 {
     font-family: "Passion One", sans-serif;
-    font-size: 130px;
-    margin: 0px;
-    padding: 10px;
+    font-variant: small-caps;
+    font-size: 10vw;
+    padding-top: 50px;
 }
 
-header>p>a {
-    color: white;
+header>p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
+    font-size: 1em;
+    padding-bottom: 2em;
 }
 
 a {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -34,17 +41,23 @@ a:hover {
     text-decoration: underline;
 }
 
-main>div>p {
-    font-family: "Sriracha", cursive;
-    font-size: 47px;
-    width: 520px;
-    padding-left: 20px;
+div {
+    font-family: 'Sriracha', cursive;
+    font-size: 3.5vw;
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-left: 30px;
+    padding-bottom: 10vh;
+}
+
+div>p {
+    width: 11em;
+    padding-bottom: 2em;
 }
 
 .img1 {
     background: rgb(50, 50, 50) url('imagens/flor.jpg') right bottom no-repeat fixed;
     background-size: cover;
-
 }
 
 .img2 {
@@ -53,24 +66,21 @@ main>div>p {
 }
 
 .fundo {
-    background-color: rgba(0, 0, 0, 0.349);
+    display: inline-block;
     color: white;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.300);
+    text-shadow: 1px 1px 0px black;
 }
 
 footer {
     background-color: black;
     text-align: center;
-    padding: 1px;
+    padding: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* color: white; */
+    color: white;
+}
 
-    a {
-        color: white;
-        font-weight: bold;
-
-        abbr {
-            text-decoration: none;
-        }
-    }
-
+abbr {
+    text-decoration: none;
 }
