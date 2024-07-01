@@ -20,11 +20,20 @@
             position: relative;
         }
         
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+
+            background-color: rgb(122, 122, 122);
+            color: white;
+        }
+
         .num {
             text-align: right;
         }
 
         thead, tfoot {
+            
             background-color: rgb(122, 122, 122);
             color: white;
         }
@@ -39,6 +48,10 @@
         tbody > tr:nth-child(odd) {
             background-color:  lightgrey;
         }
+
+        th {
+            text-align: left;
+        }
     </style>
 </head>
 <body>
@@ -48,7 +61,7 @@
         <thead>
             <tr>
                 <th scope="col">Estado</th>
-                <th scope="col">Poulação</th>
+                <th scope="col" style="width: 80px;">Poulação</th>
             </tr>
         </thead>
         <tbody>
