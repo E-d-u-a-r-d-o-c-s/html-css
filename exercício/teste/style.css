@@ -57,6 +57,16 @@ main {
         display: flex;
 
     }
+
+    .extra1 {
+        overflow-y: auto;
+
+        p {
+            padding-left: 10px;
+            padding-right: 10px;
+            text-align: justify;
+        }
+    }
     
     .extra2 {
         background-color: #589A8D;
