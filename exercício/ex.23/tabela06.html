@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p {
+            text-align: justify;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 900px;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        td:nth-child(even) {
+            background-color: darkgray;
+        }
+
+        #cont {
+            overflow-x: auto;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Texto</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam ratione ut optio reprehenderit praesentium fugiat nam voluptate pariatur sapiente, doloremque qui officiis id ipsum saepe molestiae iste exercitationem. A, velit!</p>
+    <div id="cont">
+        <table>
+            <tr>
+                <td>jan</td>
+                <td>fev</td>
+                <td>mar</td>
+                <td>abr</td>
+                <td>mai</td>
+                <td>jun</td>
+                <td>jul</td>
+                <td>ago</td>
+                <td>set</td>
+                <td>out</td>
+                <td>nov</td>
+                <td>dez</td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>
