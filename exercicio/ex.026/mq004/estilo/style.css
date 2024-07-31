@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background: black url('../../imagens/back-phone.jpg') center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.699);
+    width: 70vw;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+main>h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.555);
+}
+
+main>img {
+    display: block;
+    margin: auto;
+}
+
+img#telefone {display: block;}
+img#tablet {display: none;}
+img#pc {display: none;}
+img#impresora {display: none;}
+img#tv {display: none;}
+
+@media screen and (min-width: 778px) and (max-width: 920px) {
+    body {
+        background-image: url('../../imagens/back-tablet.jpg');
+    }
+    img#telefone {display: none;}
+    img#tablet {display: block;}
+    img#pc {display: none;}
+    img#impresora {display: none;}
+    img#tv {display: none;}
+}
+@media screen and (min-width: 920px) and (max-width: 1200px) {
+    body {
+        background-image: url('../../imagens/back-pc.jpg');
+    }
+    img#telefone {display: none;}
+    img#tablet {display: none;}
+    img#pc {display: block;}
+    img#impresora {display: none;}
+    img#tv {display: none;}
+}
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url('../../imagens/back-tv.jpg');
+    }
+
+    img#telefone {display: none;}
+    img#tablet {display: none;}
+    img#pc {display: none;}
+    img#impresora {display: none;}
+    img#tv {display: block;}
+}
+
+@media print {
+    body {
+        border: 1ps solid black;
+    }
+
+    main {
+        border: 1px solid black;
+    }
+
+    main h1 {
+        color: black;
+        text-shadow: none;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    img#telefone {display: none;}
+    img#tablet {display: none;}
+    img#pc {display: none;}
+    img#impresora {display: block;}
+    img#tv {display: none;}
+}
