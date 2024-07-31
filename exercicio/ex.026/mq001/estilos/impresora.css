@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/*Estilos para impresoras*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+menu{
+    display: none;
+}
+
+main>article>p {
+    margin: 10px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+
+}
+
+article::after {
+    content: 'Este é um artigo de www.eduardocs.com';
+}
