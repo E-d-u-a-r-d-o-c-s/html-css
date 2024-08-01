@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 778px) and (max-width: 920px) {
+    body {
+        background-color: blue;
+    }
+
+}
+
+@media screen and (min-width: 920px) {
+ body {
+    background-color: red;
+ }
+}

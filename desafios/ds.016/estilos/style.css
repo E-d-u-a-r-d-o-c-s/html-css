@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #8f17df;
+}
+
+main {
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main #imagem {
+    display: block;
+    background: black url('../imagens/fundologin.jpg') center center no-repeat;
+    height: 200px;
+    background-size: cover;
+}
+
+main #formulario {
+    display: block;
+    text-align: center;
+}
+
+main #formulario>p {
+    text-align: justify;
+}
+
+main #formulario>p, h1 {
+    padding: 10px;
+}
+
+#entrar {
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 187, 146);
+    color: white;
+    border: none;
+    font-size: 1.5em;
+    padding: 8px;
+    width: 280px;
+}
+
+#esqueci {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 187, 146);
+    padding: 8px;
+    width: 260px;
+}
+
+#iesqueci {
+    font-size: 1.2em;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+span {
+    position: absolute;
+}
