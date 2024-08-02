@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -11,8 +12,12 @@ body {
 }
 
 main {
-    background-color: white;
-    width: 300px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.login {
+    background-color: white;  
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.61);
@@ -26,45 +31,91 @@ main {
     transition-timing-function: ease;
 }
 
-main #imagem {
+.login #imagem {
     display: block;
     background: black url('../imagens/fundologin.jpg') center center no-repeat;
     height: 200px;
     background-size: cover;
 }
 
-main #formulario {
+.login #formulario {
     display: block;
     text-align: center;
-}
-
-main #formulario>p {
-    text-align: justify;
-}
-
-main #formulario>p, h1 {
     padding: 10px;
 }
 
-#entrar {
-    margin-top: 10px;
+.login #formulario>p {
+    text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#formulario .campo {
+    display: block;
+    background-color: #8f17df;
+    border: 2px solid #8f17df;
+    border-radius: 10px;
+    width: 100%;
+    height: 40px;
+    margin: 5px 0px;
+}
+
+#formulario .campo span {
+    color: white;
+    font-size: 2em;
+    height: 40px;
+    padding: 2px;
+}
+
+#formulario .campo input {
+    background-color: #d9eeed;
+    width: calc(100% - 36px);
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    font-size: 1em;
+    transform: translateY(-25%);
+}
+
+#formulario .campo input:focus-within {
+    background-color: white;
+}
+
+#formulario #entrar {
+    display: block;
     border-radius: 10px;
     background-color: #00bb92;
     color: white;
     border: none;
-    font-size: 1.5em;
-    padding: 8px;
-    width: 280px;
+    font-size: 1.2em;
+    padding: 5px;
+    width: 100%;
+    cursor: pointer;
 }
 
-#esqueci {
+#formulario #entrar:hover {
+    background-color: #027c62;
+}
+
+#formulario a {
+    display: block;
     border-radius: 10px;
-    border: 2px solid rgb(0, 187, 146);
-    padding: 8px;
-    width: 260px;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    border: 1px solid #00bb92;
+    font-size: 1.2em;
+    padding: 5px;
+    width: 100%;
+    margin-top: 5px;
+    color: #005845;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#formulario a:hover {
+    background-color: #6cd3cf;
+}
+
+#formulario a>span {
+    font-size: .9em;
 }
 
 #iesqueci {

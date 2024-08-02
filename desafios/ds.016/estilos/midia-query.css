@@ -3,43 +3,40 @@
 @media screen and (min-width: 778px) and (max-width: 920px) {
     body {
         background-image: linear-gradient(to top, #00bb92, #8f17df);
-        height: 100vh;
     }
 
-    main {
+    .login {
         width: 80vw;
     }
 
-    main #imagem {
+    .login #imagem {
         float: left;
         width: 30%;
         height: 282px;
     }
 
-    main #formulario {
+    .login #formulario {
         float: right;
         width: 70%;
     }
-
 }
 
 @media screen and (min-width: 920px) {
     body {
         background-image: linear-gradient(to top, #00bb92, #8f17df);
-        height: 100vh;
     }
 
-    main {
+    .login {
         width: 920px;
     }
 
-    main #imagem {
+    .login #imagem {
         float: right;
         width: 30%;
         height: 282px;
     }
 
-    main #formulario {
+    .login #formulario {
         float: left;
         width: 70%;
     }
