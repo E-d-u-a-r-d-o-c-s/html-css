@@ -17,6 +17,7 @@ main {
 }
 
 .login {
+    width: 300px;
     background-color: white;  
     border-radius: 10px;
     overflow: hidden;
@@ -74,7 +75,7 @@ main {
     border-radius: 8px;
     border: none;
     font-size: 1em;
-    transform: translateY(-25%);
+    transform: translateY(-26%);
 }
 
 #formulario .campo input:focus-within {
