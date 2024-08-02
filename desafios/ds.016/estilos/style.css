@@ -54,13 +54,13 @@ main #formulario>p, h1 {
 }
 
 #esqueci {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
     border-radius: 10px;
     border: 2px solid rgb(0, 187, 146);
     padding: 8px;
     width: 260px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #iesqueci {

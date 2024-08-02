@@ -5,10 +5,41 @@
         background-color: blue;
     }
 
+    main {
+        width: 80vw;
+    }
+
+    main #imagem {
+        float: left;
+        width: 30%;
+        height: 282px;
+    }
+
+    main #formulario {
+        float: right;
+        width: 70%;
+    }
+
 }
 
 @media screen and (min-width: 920px) {
- body {
-    background-color: red;
- }
+    body {
+        background-color: red;
+
+    }
+
+    main {
+        width: 80vw;
+    }
+
+    main #imagem {
+        float: right;
+        width: 30%;
+        height: 282px;
+    }
+
+    main #formulario {
+        float: left;
+        width: 70%;
+    }
 }
