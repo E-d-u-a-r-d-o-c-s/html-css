@@ -2,7 +2,8 @@
 
 @media screen and (min-width: 778px) and (max-width: 920px) {
     body {
-        background-color: blue;
+        background-image: linear-gradient(to top, #00bb92, #8f17df);
+        height: 100vh;
     }
 
     main {
@@ -24,12 +25,12 @@
 
 @media screen and (min-width: 920px) {
     body {
-        background-color: red;
-
+        background-image: linear-gradient(to top, #00bb92, #8f17df);
+        height: 100vh;
     }
 
     main {
-        width: 80vw;
+        width: 920px;
     }
 
     main #imagem {
